@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.065 sec <<< FAILURE! - in com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests
+testDefaultSettings(com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests)  Time elapsed: 3.464 sec  <<< ERROR!
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:102)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:69)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:270)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:145)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:159)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:132)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:476)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:120)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:648)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:909)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:898)
+	at com.max.spring_boot_simple_test.simple.SampleSimpleApplication.main(SampleSimpleApplication.java:34)
+	at com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests.testDefaultSettings(SampleSimpleApplicationTests.java:57)
+
+testCommandLineOverrides(com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests)  Time elapsed: 0.561 sec  <<< ERROR!
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:102)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:69)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:270)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:145)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:159)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:132)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:476)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:120)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:648)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:909)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:898)
+	at com.max.spring_boot_simple_test.simple.SampleSimpleApplication.main(SampleSimpleApplication.java:34)
+	at com.max.spring_boot_simple_test.simple.SampleSimpleApplicationTests.testCommandLineOverrides(SampleSimpleApplicationTests.java:64)
+

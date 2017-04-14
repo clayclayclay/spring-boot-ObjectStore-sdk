@@ -1,0 +1,11 @@
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\model\BasicJson.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\util\AmazonS3ConnectionUtil.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\SampleSimpleApplication.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\configuration\SpringBootConfiguration.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\exception\GlobalHandlerExceptionResolver.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\controller\S3ClientObjectController.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\service\BucketService.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\controller\S3ClientBucketController.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\model\ObjectContent.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\util\CommonUtil.java
+C:\Users\I337739\Documents\workspace-sts-3.8.3.RELEASE\spring-boot-ObjectStore-demo2\src\main\java\com\max\spring_boot_simple_test\simple\service\ObjectService.java
